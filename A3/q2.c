@@ -24,10 +24,10 @@ int main()
     {
         for(j=0;j<10;++j)
         {
-			if(heap[i*10+j]>=0&&heap[i*10+j]<=9)
-			{
-				printf("0");
-			}
+            if(heap[i*10+j]>=0&&heap[i*10+j]<=9)
+            {
+                printf("0");
+            }
             printf("%d ",heap[i*10+j]);
         }
         printf("\n");
